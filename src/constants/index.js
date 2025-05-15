@@ -162,7 +162,7 @@ const expCards = [
    {
     id:1,
     review:
-      "Yes It Labs offered a collaborative workplace where I engaged with multiple teams and clients. I learned how to manage projects professionally through clear emails and detailed client reports.",
+      "At Vesure Pvt. Ltd., I Worked on multiple diverse projects that deepened my technical expertise. Despite a challenging work environment, I gained valuable experience in managing tasks independently and overcoming obstacles.",
     imgPath: `${import.meta.env.BASE_URL}images/exp0.png`,
     logoPath: `${import.meta.env.BASE_URL}images/logo0.png`,
     title: "React Native Developer",
