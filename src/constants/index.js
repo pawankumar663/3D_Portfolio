@@ -128,13 +128,13 @@ const techStackImgs = [
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: `${import.meta.env.BASE_URL}models/react_logo-transformed.glb`,
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "Mobile App Developer",
-    modelPath: "/models/react_logo-transformed1.glb",
+    modelPath: `${import.meta.env.BASE_URL}models/react_logo-transformed1.glb`,
     scale: 1,
     rotation: [0, 0, 0],
   },
@@ -146,13 +146,13 @@ const techStackIcons = [
   // },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: `${import.meta.env.BASE_URL}models/three.js-transformed.glb`,
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Git Version control",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: `${import.meta.env.BASE_URL}models/git-svg-transformed.glb`,
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -179,7 +179,7 @@ const expCards = [
     review:
       "Yes It Labs offered a collaborative workplace where I engaged with multiple teams and clients. I learned how to manage projects professionally through clear emails and detailed client reports.",
     imgPath: `${import.meta.env.BASE_URL}images/exp1.png`,
-    logoPath: `${import.meta.env.BASE_URL}/logo1.png`,
+    logoPath: `${import.meta.env.BASE_URL}logo1.png`,
     title: "React Native Developer",
     star:3,
     responsibilities: [
