@@ -31,7 +31,7 @@ const ExperienceSection = () => {
              scrollTrigger: {
                 trigger: ".timeline",
                 start: "top center",
-                end: "70% center",
+                end: "100% center",
                 onUpdate: (self) => {
                     gsap.to(".timeline", {
                         scaleY: 1 - self.progress,
@@ -66,7 +66,7 @@ const ExperienceSection = () => {
                             <div className={"xl:w-2/6"}>
                             <GlowCard card={card} index={index}>
                                 <div>
-                                    <img src={card.imgPath} alt="{card.title}" />
+                                    <img src={card.imgPath} alt="{card.title}" className='h-14 object-cover'/>
                                 </div>
                             </GlowCard>
                             </div>
@@ -82,9 +82,7 @@ const ExperienceSection = () => {
                                         </div>
                                         <div>
                                             <h1 className="font-semibold text-3xl">{card.title}</h1>
-                                            <p className="my-5 text-white-50">
-                                                🗓️&nbsp;{card.date}
-                                            </p>
+                                           
                                             <p className="text-[#839CB5] italic">
                                                 Responsibilities
                                             </p>

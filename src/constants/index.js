@@ -123,7 +123,6 @@ const techStackImgs = [
     name: "Git Version control",
     imgPath: "/images/logos/git.svg",
   },
-
 ];
 
 const techStackIcons = [
@@ -160,40 +159,64 @@ const techStackIcons = [
 ];
 
 const expCards = [
+   {
+    review:
+      "Yes It Labs offered a collaborative workplace where I engaged with multiple teams and clients. I learned how to manage projects professionally through clear emails and detailed client reports.",
+    imgPath: "/images/exp0.png",
+    logoPath: "/images/logo0.png",
+    title: "React Native Developer",
+    star:3,
+    responsibilities: [
+      "Specialized in building and deploying mobile apps using React Native.",
+      "Developed intuitive and high-performance applications for Android and iOS.",
+      "Maintained compatibility and smooth performance across a wide range of devices.",
+      "Successfully launched applications on both Google Play Store and Apple App Store.",
+    ],
+  },
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Yes It Labs offered a collaborative workplace where I engaged with multiple teams and clients. I learned how to manage projects professionally through clear emails and detailed client reports.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "React Native Developer",
+    star:3,
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Led cross-platform mobile app development with React Native for iOS and Android.",
+      "Crafted intuitive UI designs and solid app architecture.",
+      "Built custom UI components for better user interaction.",
+      "Maintained high code quality and application stability.",
+      "Deployed apps on Android Play Store and Apple App Store."
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Collaborating on Total synergy concept with an excellent team in a positive workplace allowed me to work independently and bring my ideas to life. This role significantly contributed to my skill development and overall growth.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    star:5,
+    title: "React Native Developer",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Architected websites and crafted intuitive UI designs.",
+      "Delivered cross-platform mobile applications using React Native.",
+      "Developed custom UI components for improved UX.",
+      "Ensured code quality with reusable and efficient practices.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Sigroo provided a fantastic environment for learning and growth, where I was free to express my ideas and play an active role in project development.",
     imgPath: "/images/exp3.png",
+    star:5,
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Software Developer",
+    
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed dynamic digital solutions including websites, web applications, and mobile applications.",
+      "Specialized in React.js for building and testing scalable, high-performance web applications.",
+      "Designed, developed, and tested cross-platform mobile applications using React Native.",
+      "Ensured application quality through rigorous testing processes for both web and mobile platforms.",
+      "Contributed to modern, user-centric UI/UX designs by leveraging the latest web design tools.",
+      "Maintained up-to-date knowledge of industry standards and trends to implement innovative solutions.",
     ],
   },
 ];
@@ -259,26 +282,30 @@ const testimonials = [
 ];
 
 const socialImgs = [
-
   {
     name: "x",
     imgPath: "/images/x.png",
-    link:'https://x.com/pawankumar663'
+    link: "https://x.com/pawankumar663",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    link:'https://www.linkedin.com/in/pawan-kumar-91b748155/'
+    link: "https://www.linkedin.com/in/pawan-kumar-91b748155/",
+  },
+  {
+    name: "Github",
+    imgPath: "/images/github.png",
+    link: "https://github.com/pawankumar663",
   },
   {
     name: "indeed",
     imgPath: "/images/indeed.png",
-    link:'https://profile.indeed.com/p/pawank-lwp74wt'
+    link: "https://profile.indeed.com/p/pawank-lwp74wt",
   },
   {
     name: "Whatsapp",
     imgPath: "/images/whatsapp.png",
-    link:'https://wa.me/919729401903?text=Hi'
+    link: "https://wa.me/919729401903?text=Hi",
   },
 ];
 

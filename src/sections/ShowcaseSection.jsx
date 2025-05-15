@@ -63,7 +63,7 @@ const ShowcaseSection = () => {
                                 <img src={"/images/project3.png"} alt="YC Directory"/>
                             </div>
                             <h2>
-                                YC Directory - A startup showcase App
+                                V.K. Enterpises - A hardware showcase Application
                             </h2>
                         </div>
                     </div>
