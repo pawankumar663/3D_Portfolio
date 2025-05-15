@@ -63,7 +63,7 @@ const Hero = () => {
   return (
     <section id="hero" className={"relative overflow-hidden"}>
       <div className={"absolute top-0 left-0 z-10"}>
-        <img src={"/images/bg.png"} alt="background" />
+        <img src={`${import.meta.env.BASE_URL}images/bg.png`} alt="background" />
       </div>
 
       <div className=" w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
@@ -73,7 +73,7 @@ const Hero = () => {
           className="rounded-full md:w-50 w-34 p-1 animate-rotate-border bg-conic/[from_var(--border-angle)] from-[#d9ecff] via-[#6a329f] to-[#d9ecff]"
         >
           <img
-            src={"/images/profile_img.png"}
+            src={`${import.meta.env.BASE_URL}images/profile_img.png`}
             alt=""
             className="rounded-full md:w-48 w-32 "
           />
@@ -84,7 +84,7 @@ const Hero = () => {
           className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
         >
           Hi! I'm Pawan Kumar
-          <img src={"/images/hand-icon.png"} alt="" className="w-6" />
+          <img src={`${import.meta.env.BASE_URL}images/hand-icon.png`} alt="" className="w-6" />
         </h3>
         <h1
           ref={headTwoRef}

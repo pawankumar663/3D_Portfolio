@@ -114,7 +114,7 @@ finally {
                                             {loading ? "Sending..." : "Send Message"}
                                         </p>
                                         <div className="arrow-wrapper">
-                                            <img src="/images/arrow-down.svg" alt="arrow" />
+                                            <img src={`${import.meta.env.BASE_URL}images/arrow-down.svg`} alt="arrow" />
                                         </div>
                                     </div>
                                 </button>
