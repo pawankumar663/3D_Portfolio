@@ -179,7 +179,7 @@ const expCards = [
     review:
       "Yes It Labs offered a collaborative workplace where I engaged with multiple teams and clients. I learned how to manage projects professionally through clear emails and detailed client reports.",
     imgPath: `${import.meta.env.BASE_URL}images/exp1.png`,
-    logoPath: `${import.meta.env.BASE_URL}logo1.png`,
+    logoPath: `${import.meta.env.BASE_URL}images/logo1.png`,
     title: "React Native Developer",
     star:3,
     responsibilities: [
