@@ -166,7 +166,7 @@ const expCards = [
     imgPath: `${import.meta.env.BASE_URL}images/exp0.png`,
     logoPath: `${import.meta.env.BASE_URL}images/logo0.png`,
     title: "React Native Developer",
-    star:3,
+    star:1,
     responsibilities: [
       "Specialized in building and deploying mobile apps using React Native.",
       "Developed intuitive and high-performance applications for Android and iOS.",
