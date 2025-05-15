@@ -160,6 +160,7 @@ const techStackIcons = [
 
 const expCards = [
    {
+    id:1,
     review:
       "Yes It Labs offered a collaborative workplace where I engaged with multiple teams and clients. I learned how to manage projects professionally through clear emails and detailed client reports.",
     imgPath: "/images/exp0.png",
@@ -174,6 +175,7 @@ const expCards = [
     ],
   },
   {
+     id:2,
     review:
       "Yes It Labs offered a collaborative workplace where I engaged with multiple teams and clients. I learned how to manage projects professionally through clear emails and detailed client reports.",
     imgPath: "/images/exp1.png",
@@ -189,6 +191,7 @@ const expCards = [
     ],
   },
   {
+     id:3,
     review:
       "Collaborating on Total synergy concept with an excellent team in a positive workplace allowed me to work independently and bring my ideas to life. This role significantly contributed to my skill development and overall growth.",
     imgPath: "/images/exp2.png",
@@ -203,6 +206,7 @@ const expCards = [
     ],
   },
   {
+     id:4,
     review:
       "Sigroo provided a fantastic environment for learning and growth, where I was free to express my ideas and play an active role in project development.",
     imgPath: "/images/exp3.png",
